@@ -11,6 +11,7 @@ docker run -dt -p 80:80 --name test1 react
 Opcjonalne: curl localhost (odpowiedz w formie tekstowej - nie widac efektu)
 
 # Uwagi :
+- Pierwsze budowanie może potrwać nawet kilka minut - proces tworzenia aplikacji React
 - Zmiana portów <b>nie jest zalecana</b> - wymagana edycja pliku konfiguracyjnego serwera
 - W katalogu 'ss' znajdują sie zrzuty ekranu
 - Podczas testowania wystąpił problem z przekazaniem wartości zadeklarowanej zmiennej - problem rozwiązało dodanie <b>REACT_APP_</b> na poczatku nazwy zmiennej
