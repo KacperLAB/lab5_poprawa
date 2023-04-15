@@ -14,3 +14,4 @@ Opcjonalne: curl localhost (odpowiedz w formie tekstowej - nie widac efektu)
 - Zmiana portów <b>nie jest zalecana</b> - wymagana edycja pliku konfiguracyjnego serwera
 - W katalogu 'ss' znajdują sie zrzuty ekranu
 - Podczas testowania wystąpił problem z przekazaniem wartości zadeklarowanej zmiennej - problem rozwiązało dodanie <b>REACT_APP_</b> na poczatku nazwy zmiennej
+- W zależności od urządzenia, wymagane może być pobranie innej wersji obrazu alpine i dokonanie zmian w pliku Dockerfile
